@@ -26,6 +26,9 @@
       </nav>
       <div class="copyright">
         &copy; {{ year }}, Global ID LTD
+        <a href="https://beta.companieshouse.gov.uk/company/12552450" target="_blank" rel="noopener"
+          >Global ID LTD</a
+        >
       </div>
     </div>
   </footer>

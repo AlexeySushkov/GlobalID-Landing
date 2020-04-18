@@ -8,8 +8,8 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.sushkov.ru">
-              About Us
+            <a href="https://beta.companieshouse.gov.uk/company/12552450">
+              About
             </a>
           </li>
           <li>
@@ -20,7 +20,10 @@
         </ul>
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, Global ID LTD
+        &copy; {{ year }},
+        <a href="https://beta.companieshouse.gov.uk/company/12552450" target="_blank" rel="noopener"
+          >Global ID LTD</a
+        >
       </div>
     </div>
   </footer>
