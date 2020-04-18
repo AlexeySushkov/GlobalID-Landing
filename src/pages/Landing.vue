@@ -3,7 +3,7 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/bg6.jpg')"
+        style="background-image: url('img/landing.jpg')"
       >
       </parallax>
       <div class="content-center">
@@ -21,14 +21,14 @@
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h3 class="title">The Global Problem</h3>
             <p>
-Существующее положение можно охарактеризовать, как “парольный ад”. Идентификационные данные пользователей (логины / пароли) от интернет сайтов хранятся в Google или в закрытых специальных приложениях (парольных менеджерах) или каждый мучается сам. Пароли в большинстве случаев либо одинаковые, либо разные, но нестойкие, либо стойкие, но их невозможно запомнить.               
+Current situation we can be described as password hell. Passwords from internet sites and social networks are stored into Google or stored in closed passwords managers or everyone suffers by themselves. And passwords in many cases are either the same or different but it is impossible to remember them. 
             </p>
             <p>
-В последнее время для пользователей положение с регистрацией и идентификацией немного улучшилась, т.к. интернет сайты стали предоставлять возможность входа с помощью аккаунта Google социальных и профессиональных сетей.
+In recent times the situation with registration and identification on internet sites has improved. Because internet sites have begun to provide the ability to log in using using Google or social networks accounts.
 
             </p>
             <p>
-Но сами сайты по-прежнему должны самостоятельно вести базу данных своих пользователей и хранить их персональные данные. И никто не знает насколько профессионально и безопасно это организовано. 
+But sites still have to store users' personal data in their own databases. And nobody knows how professionally and secure it is organized.
             </p>
           </div>
         </div>
@@ -40,7 +40,7 @@
                 Current state
               </h3>
               <p>
-                В настоящее время существует несколько инициатив от глобальных игроков:
+                Let’s look at the current situation. Now there are several global  initiatives:
               </p>
               <h3>
                 GSMA: Decentralised Identity
@@ -97,10 +97,10 @@ Mobile Connect is a secure universal identity service for Digital Service Provid
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
              <h3 class="title">
-                Мировые аналитические агентства
+                Global analytical agencies
               </h3>
               <p>
-                Мировые аналитические агентства говорят о перспективности использования DLT технологий для решения задач, связанных с аутентификацией, авторизацией и хранением персональных данных:
+                Global analytical agencies describe perspectives of usage DLT (Distributed Ledger Technologies) to solve the tasks of authentication, authorisation and storing personal data:
               </p>
               <h3>
                 McKinsey: Digital Identification: A key to inclusive growth 
@@ -161,27 +161,31 @@ The management of customers' identities and related data has been approached in 
                 Global ID Marketplace
               </h3>
               <p>
-                Но! Дальше разговоров и обсуждения одних и тех же простейших кейсов дело не идет. Почему? 
+                But we can see only discussions of the same simple use cases. And we don’t see many production implementations. Why?
               </p>
               <p>
-Все пытаются работать только на себя и остальных участников рассматривают как конкурентов.
-Global ID - независимая компания рассматривает всех участников, как партнеров 
+Everyone tries to promote  only their own products and other participants are considered competitors.
               </p>
+              <p><b>
+Global ID is an independent company and interacts with all developers as partners.              
+              </b></p>
               <p>
-Легко сказать: "мы поддержали такой-то протокол или стандарт". Трудно сделать кейс, который будет полезен пользователям или бизнесу.
-Global ID - решает проблему парольного ада, используя синергетический  эффект от объединения доступных технологий.
+It is easy to say: we support a particular standard or protocol. But it is hard to implement useful functionality for users or businesses.
               </p>
+              <p><b>
+Global ID solves the problem with password hell using synergistic effect of combining available technologies.              
+              </b></p>
               <h3>
-                Этапы реализации
+                Development steps
               </h3>
               <p>
-Задача с реализацией Global ID делится на несколько шагов: сначала сделать децентрализованное хранение паролей, далее решить проблему с идентификацией на сайтах и после защитить персональные данные пользоветелей.                 
-</p>
+The task with implementing Global ID is divided into several steps. First of all it is necessary to develop decentralised password storage. Then solve the problem with users identification on internet sites. And finally protect personal data.  
+            </p>
              <br/>
              <br/>
              <br/>
               <h3>
-                Используемые стандрты и протоколы
+                Used standards and protocols
               </h3>
               <p>
 OAuth 2.0
