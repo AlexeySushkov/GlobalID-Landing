@@ -250,43 +250,15 @@ Decentralized Identifiers (DIDs) v1.0
     <div class="section section-contact-us text-center">
       <div class="container">
         <h2 class="title">Call for white paper?</h2>
-        <p class="description">Please send request to us.</p>
-        <div class="row">
-          <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
-            <fg-input
-              class="input-lg"
-              placeholder="Your Name..."
-              v-model="form.firstName"
-              addon-left-icon="now-ui-icons users_circle-08"
-            >
-            </fg-input>
-            <fg-input
-              class="input-lg"
-              placeholder="Your Email..."
-              v-model="form.email"
-              addon-left-icon="now-ui-icons ui-1_email-85"
-            >
-            </fg-input>
-            <div class="textarea-container">
-              <textarea
-                class="form-control"
-                name="name"
-                rows="4"
-                cols="80"
-                v-model="form.message"
-                placeholder="Type a message if any.."
-              ></textarea>
-            </div>
-            <div class="send-button">
-              <n-button type="primary" round block size="lg" @click="Click"
-                >Send Message</n-button
+        <p class="description">Please send request to us:</p>
+            <div class="send-button text-center">
+              <n-button type="primary" round size="lg" @click="Click"
+                >Send Request</n-button
               >
-            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </template>
 <script>
 import { Button, FormGroupInput } from '@/components';
@@ -308,7 +280,7 @@ export default {
   },
   methods: {
     Click () {
-        alert("Functionality is under construction...")
+        window.open('mailto:alexey.p.sushkov@gmail.com?subject=GlobalID white paper&body=Please send me GlobalID white paper!');
     }
   }
 }
